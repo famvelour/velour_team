@@ -1,0 +1,54 @@
+html{
+  margin:0;
+  padding: 0;
+}
+h1{
+  font-family: Calibri Light;
+}
+body{
+  background-color: lightblue;
+  opacity: 0.8;
+}
+.nav{
+  font-family: Bauhaus 93;
+  font-size: 20px;
+  display: inline-block;
+  float: right;
+  margin-bottom:3px;
+}
+.nav a{
+  text-decoration: none;
+  letter-spacing: 3px;
+  padding: 5px 20px;
+  border:transparent;
+  color:black;
+}
+.nav a:hover{
+  background-color: white;
+  transition: all 0.4s ease;
+}
+.nav .active a{
+    background-color: white;
+  transition: all 0.4s ease;
+}
+b{
+  text-align: center;
+  font-family: Berlin Sans FB;
+  font-size: 60px;
+  letter-spacing: 2px;
+  color: crimson;
+}
+.button a{
+  font-size:17px;
+  font-family: Bell MT;
+  border: 2px solid black;
+  color:red;
+  padding: 10px 30px;
+  text-decoration: none;
+  font-stretch: ultra-condensed;
+}
+.button a:hover{
+
+  background-color: #fff;
+  transform: a11 0.5s ease;
+}
